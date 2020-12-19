@@ -116,3 +116,7 @@ nav{
     height: 20px;
     border-radius: 50%;
 }
+
+.current-ball{
+    background: rgb(141, 17, 17);
+}
