@@ -8,3 +8,26 @@ body{
     width: 100vw;
     font-size: 16px;
 }
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+section{
+    margin-top: 100px;
+}
+
