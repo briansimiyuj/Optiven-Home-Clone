@@ -93,7 +93,7 @@ nav{
 .slider h1{
     z-index: 2000;
     position: absolute;
-    background: red;
+    background: rgba(128, 128, 128, 0.637);
     top: 40%;
     left: 40%;
     padding: 1rem;
