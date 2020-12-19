@@ -45,6 +45,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
+    background: rgba(128, 128, 128, 0.185);
 }
 
 .logo{
@@ -81,11 +82,11 @@ nav{
     position: absolute;
     top: -1rem;
     left: 0;
+    z-index: -1;
 }
 
 .slider{
     position: relative;    
-    background: red;
     width: 100vw;
     height: 100vh;
 }
