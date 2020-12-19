@@ -52,3 +52,11 @@ header{
     height: 100px;
 }
 
+nav{
+    width: 70%;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+}
