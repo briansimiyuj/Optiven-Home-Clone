@@ -43,3 +43,8 @@ header{
     justify-content: space-between;
 }
 
+.logo{
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
