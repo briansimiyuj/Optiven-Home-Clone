@@ -98,3 +98,21 @@ nav{
     left: 40%;
     padding: 1rem;
 }
+
+.balls{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 80%;   
+    left: 40%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.ball{
+    background: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
