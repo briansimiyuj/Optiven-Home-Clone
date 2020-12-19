@@ -55,9 +55,22 @@ header{
 
 nav{
     width: 70%;
+    margin-top: 2rem;
 }
 
 .nav-list{
     display: flex;
     justify-content: space-around;
+}
+
+.nav-list li{
+    font-size: 1.4rem;
+}
+
+.nav-list a{
+    color: #000;
+}
+
+.nav-list a:hover{
+    color: brown;
 }
