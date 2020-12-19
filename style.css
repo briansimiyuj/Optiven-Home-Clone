@@ -134,3 +134,21 @@ nav{
 .current-ball{
     background: rgb(141, 17, 17);
 }
+
+#prev-btn{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+}
+
+#next-btn{
+    position: absolute;
+    top: 50%;
+    right: 1%;
+}
+
+.buttons button{
+    padding: 20px 30px; 
+    background: transparent;        
+    color: #ffffff;
+}
