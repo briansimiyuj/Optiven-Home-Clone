@@ -64,6 +64,10 @@ const nextSlide = () =>{
 
 const previousSlide = () =>{
 
+     const current = document.querySelector(".current")  
+
+     const currentBall = document.querySelector(".current-ball")
+
        current.classList.remove("current")
 
 
@@ -93,9 +97,6 @@ const previousSlide = () =>{
        }
 
       
-
-       console.log('working')
-
 }
 
 
@@ -108,6 +109,15 @@ const previousSlide = () =>{
 nextBTN.addEventListener("click", e =>{
 
      nextSlide() 
+
+
+})  
+
+
+
+prevBTN.addEventListener("click", e =>{
+
+     previousSlide() 
 
      console.log('working')
 
