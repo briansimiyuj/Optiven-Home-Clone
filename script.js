@@ -1,9 +1,5 @@
 const slides = document.querySelectorAll(".slide")
 
-const current = document.querySelector(".current")  
-
-const currentBall = document.querySelector(".current-ball")
-
 const prevBTN  = document.querySelector("#prev-btn")
 
 const balls = document.querySelectorAll(".ball")
@@ -20,6 +16,10 @@ let nextInterval
 
 const nextSlide = () =>{
 
+     const current = document.querySelector(".current")  
+
+     const currentBall = document.querySelector(".current-ball")
+
        current.classList.remove("current")
 
 
@@ -33,7 +33,7 @@ const nextSlide = () =>{
            
        }
 
-
+       
 
        currentBall.classList.remove("current-ball")
 
@@ -48,6 +48,9 @@ const nextSlide = () =>{
            
        }
 
+                
+       currentBall.classList.remove("current-ball")
+   
 
 }
 
@@ -96,4 +99,16 @@ const previousSlide = () =>{
 }
 
 
-previousSlide()
+
+
+
+
+
+
+nextBTN.addEventListener("click", e =>{
+
+     nextSlide() 
+
+     console.log('working')
+
+})  
