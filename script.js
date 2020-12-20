@@ -6,6 +6,10 @@ const currentBall = document.querySelector(".current-ball")
 
 const prevBTN  = document.querySelector("#prev-btn")
 
+const auto = true
+
 const nextBTN = document.querySelector("#next-btn")
 
-console.log(slides, current, currentBall, prevBTN, nextBTN)       
+const intervalTime = 5000
+
+let nextInterval 
