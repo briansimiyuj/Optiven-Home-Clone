@@ -6,6 +6,8 @@ const currentBall = document.querySelector(".current-ball")
 
 const prevBTN  = document.querySelector("#prev-btn")
 
+const balls = document.querySelectorAll(".ball")
+
 const auto = true
 
 const nextBTN = document.querySelector("#next-btn")
@@ -14,6 +16,8 @@ const intervalTime = 5000
 
 let nextInterval 
 
+
+console.log(balls)
 
 
 const nextSlide = () =>{
@@ -42,7 +46,7 @@ const nextSlide = () =>{
 
        } else {
 
-            slides[0].classList.add("current-ball")                                
+            balls[0].classList.add("current-ball")                                
            
        }
 
