@@ -108,7 +108,16 @@ const previousSlide = () =>{
 
 nextBTN.addEventListener("click", e =>{
 
-     nextSlide() 
+     nextSlide()
+     
+     
+     if (auto) {
+        
+        clearInterval()
+
+        console.log('working')
+
+    }
 
 })  
 
@@ -117,6 +126,15 @@ nextBTN.addEventListener("click", e =>{
 prevBTN.addEventListener("click", e =>{
 
      previousSlide() 
+
+
+     if (auto) {
+        
+        clearInterval()
+
+        console.log('working')
+
+    }
 
 })
 
@@ -129,10 +147,7 @@ if (auto) {
      nextInterval = setInterval(() => {
           
           nextSlide()
-          
-          console.log('working')
 
-     }, intervalTime)
-     
+     }, intervalTime) 
 
 }
