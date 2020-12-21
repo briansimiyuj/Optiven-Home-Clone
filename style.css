@@ -108,7 +108,8 @@ nav{
     z-index: 2000;
     position: absolute;
     background: rgba(128, 128, 128, 0.637);
-    top: 40%;
+    animation: titleUp .5s ease-in-out 2s 1 forwards ;
+    top: 100%;
     left: 40%;
     padding: 1rem;
 }
