@@ -4,7 +4,7 @@ const prevBTN  = document.querySelector("#prev-btn")
 
 const balls = document.querySelectorAll(".ball")
 
-const auto = false
+const auto = true
 
 const nextBTN = document.querySelector("#next-btn")
 
@@ -116,6 +116,7 @@ nextBTN.addEventListener("click", e =>{
         clearInterval()
         
     }
+    
 
 })  
 
