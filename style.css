@@ -408,6 +408,7 @@ footer{
         height: 50vh;
         margin-top: 5rem;
         flex-flow: column;
+        visibility: hidden;
     }
 
     nav{
@@ -417,7 +418,7 @@ footer{
 
     header{
         background: #fff;
-        height: 65vh;
+        height: 15vh;
     }
 
     .header-carousel{
@@ -440,5 +441,13 @@ footer{
     .hamburger{
         visibility: visible;
     } 
+
+    .nav-list.active{
+        visibility: visible;
+    }
+
+    header.active{
+        height: 65vh;
+    }
 
 }
