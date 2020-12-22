@@ -179,6 +179,5 @@ hamburger.addEventListener('click', () =>{
    })
    
 
-   console.log('working')
 
 })
