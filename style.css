@@ -237,13 +237,11 @@ nav{
 }
 
 .contact .grid-container{
-    background: blue;
     grid-template-columns: repeat(3, 300px);  
     justify-content: space-around;
 }
 
 .contact .grid-box{
-    background: red;
     width: 300px;
     padding: 9rem 0;
     margin: 0 auto; 
