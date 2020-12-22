@@ -27,8 +27,18 @@ p{
     font-weight: 300;
 }
 
-section{
-    /* margin-top: 100px; */
+.mt60{
+    margin-top: 60px;
+}
+
+.section{
+    color: crimson;
+}
+
+.section-h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 img{
@@ -161,16 +171,6 @@ nav{
     margin-top: 600px;
 }
 
-.build h1, .build h2{
-    color: crimson;
-}
-
-.build h1{
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
 .build h2{
     text-transform: uppercase;
     font-weight: 600;
@@ -200,7 +200,7 @@ nav{
     padding: 5rem 2rem;
 }
 
-button{
+.section-btn{
     margin-top: 30px;
     text-transform: uppercase;                                                  
     padding: 1rem 2rem;
@@ -213,7 +213,7 @@ button{
     transition: all .6s ease;
 }
 
-button:hover{
+.section-btn:hover{
     background: green;
     color: #ffffff;
 }
