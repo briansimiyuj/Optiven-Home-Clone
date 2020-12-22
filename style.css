@@ -294,4 +294,15 @@ nav{
 footer{
     background: green;
     text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-list{
+    display: flex;
+    margin-top: 35px;
+    font-size: 2rem;
 }
