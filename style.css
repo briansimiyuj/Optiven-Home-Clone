@@ -217,3 +217,11 @@ button:hover{
     background: green;
     color: #ffffff;
 }
+
+.img{
+    transition: transform .6s;
+}
+
+.img:hover{
+    transform: scale(1.1);
+}
