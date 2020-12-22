@@ -166,3 +166,20 @@ nav{
     font-size: 2rem;
     color: crimson;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    width: 85%;
+    margin: 0 3rem;
+    grid-gap: 3em;
+    padding: 1rem 1rem;
+    background-color: blue;   
+}
+
+.grid-box{
+    background: red;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;     
+}
