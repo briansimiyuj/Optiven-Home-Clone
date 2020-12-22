@@ -450,4 +450,8 @@ footer{
         height: 65vh;
     }
 
+    .build{
+        margin-top: 900px; 
+    }
+
 }
