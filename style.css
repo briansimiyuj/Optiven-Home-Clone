@@ -177,6 +177,10 @@ nav{
     margin-bottom: 1rem;
 } 
 
+.build p{
+    font-size: 1.5rem;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: repeat(2, 500px);
