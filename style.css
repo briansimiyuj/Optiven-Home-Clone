@@ -259,6 +259,12 @@ nav{
     font-size: 3rem;
     color: #ffffff;
     margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.icon:hover{
+    background: rgba(183,146,53,.99); 
+    animation: pulse 2s ease-in-out .2s 1 forwards;
 }
 
 .icon i{
