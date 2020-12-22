@@ -199,3 +199,21 @@ nav{
     background: #f4f4f4;
     padding: 5rem 2rem;
 }
+
+button{
+    margin-top: 30px;
+    text-transform: uppercase;                                                  
+    padding: 1rem 2rem;
+    border: 2px solid green;
+    cursor: pointer;
+    color: green;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: all .6s ease;
+}
+
+button:hover{
+    background: green;
+    color: #ffffff;
+}
