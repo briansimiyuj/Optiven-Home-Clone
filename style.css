@@ -161,11 +161,21 @@ nav{
     margin-top: 600px;
 }
 
-.build h1{
-    text-align: center;
-    font-size: 2rem;
+.build h1, .build h2{
     color: crimson;
 }
+
+.build h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.build h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1rem;
+} 
 
 .grid-container{
     display: grid;
@@ -174,11 +184,9 @@ nav{
     margin: 0 3rem;
     grid-gap: 3em;
     padding: 1rem 1rem;
-    background-color: blue;   
 }
 
 .grid-box{
-    background: red;
     width: 500px;
     height: 300px;
     margin: 0 auto;     
