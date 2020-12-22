@@ -192,6 +192,10 @@ nav{
 
 .grid-box{
     width: 500px;
-    height: 300px;
     margin: 0 auto;     
+}
+
+.grey{
+    background: #f4f4f4;
+    padding: 5rem 2rem;
 }
